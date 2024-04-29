@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(255, 255, 255, 0.644);
+    font-family: Georgia;
+    font-size:16px;
+}
+
+.cabecalho img {
+    width: 78%;
+    height: auto;
+
+}
+
+.introducao{
+    float:left;
+    display: inline;
+    text-align:justify;
+}
+
+.localizacao{
+    padding-left: 200px;
+    display: inline;
+}
+
+#local{
+    border-style: dotted;
+}
+
+.exercicios{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    border-style:ridge;
+    background-color: rgb(239, 238, 238);
+}
+
+.exercicios h2{
+    display: block;
+    width: 100%;
+}
+
+.exercicio{
+    padding-top: 50px;
+    width: 400px;
+    height: auto;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.descricao {
+    max-width: 100%;
+    
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin:0px;
+
+    background-color: rgb(16, 182, 86);
+    overflow-wrap: break-word;
+}
+
+.descricao p.nome{
+    max-width: 100%;
+    font-size: 24px;  
+}
+
+.descricao p.funcao{
+    max-width: 100%;
+    font-size: 16px;  
+}
+
+.exercicio> div> a{
+    height: 50%; 
+    width: auto;
+}
+.exercicio> div> a >img{
+    border-radius: 10%;
+    border: 2px solid black;
+    height: 300px; 
+    width: auto;
+}
+
+.aviso{
+    color:red;
+    font-weight: bold;
+}
